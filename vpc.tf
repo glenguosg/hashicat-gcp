@@ -3,7 +3,7 @@ module "network" {
   version = "3.4.0"
 
   project_id   = var.project
-  network_name = "myorg-vpc"
+  network_name = "myorg-newvpc"
   routing_mode = "GLOBAL"
 
   subnets = [
